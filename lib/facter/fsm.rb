@@ -17,7 +17,6 @@
 
 require 'facter'
 
-key = 'state'
 regexp = /^[a-z]{1}[a-z0-9]{0,}$/
 
 # find the module_vardir

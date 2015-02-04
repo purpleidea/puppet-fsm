@@ -52,7 +52,7 @@ define fsm::transition(
 		'liquid' => 'liquid',
 		'gas' => 'gas',
 		'plasma' => 'plasma',
-		# initialize the $last var to match the $input if it's empty... 
+		# initialize the $last var to match the $input if it's empty...
 		'' => "${valid_input}",
 		default => '',
 	}
